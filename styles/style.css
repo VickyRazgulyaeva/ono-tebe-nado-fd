@@ -57,15 +57,13 @@
   background-size: cover;
   background-position: center;
   min-height: 757px;
-  padding: 165px 50px 207px 50px;
-  height: 757px;
+  padding: 165px 50px 50px 50px;
 }
 
 .overlay {
   position: absolute;
-  opacity: 0.6;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .cover__title {
@@ -76,7 +74,6 @@
   letter-spacing: 30px;
   text-transform: uppercase;
   color: #fff;
-  margin-right: -30px;
   position: relative;
 }
 
@@ -95,6 +92,10 @@
   text-align: right;
   display: block;
   margin-top: 20px;
+}
+
+.letter-spacing-reduce {
+  letter-spacing: 0;
 }
 
 .description {
@@ -126,13 +127,13 @@
   text-align: center;
   text-transform: uppercase;
   width: 256px;
-  height: 51px;
   background-color: transparent;
   color: #fff;
   border-color: #fff;
   border-style: solid;
   border-width: 1px;
   position: relative;
+  padding: 12px 32px 11px 31px;
 }
 
 .lots {
@@ -176,27 +177,21 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .card_type_film {
-  background: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card__title {
@@ -238,6 +233,7 @@
   width: 240px;
   height: 240px;
 }
+
 .about__logo-img {
   width: 148px;
   height: 114px;
@@ -272,7 +268,6 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 180px;
   padding: 0 50px 82px 50px;
 }
 

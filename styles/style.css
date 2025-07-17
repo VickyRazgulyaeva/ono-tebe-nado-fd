@@ -58,7 +58,6 @@
   background-position: center;
   min-height: 757px;
   padding: 165px 50px 207px 50px;
-  height: 100vh;
 }
 
 .overlay {
@@ -77,6 +76,7 @@
   text-transform: uppercase;
   color: #fff;
   margin-right: -30px;
+  position: relative;
 }
 
 .aligned-text_left {
@@ -112,6 +112,7 @@
   color: #fff;
   word-spacing: 20px;
   align-content: center;
+  position: relative;
 }
 
 .letter-spacing-extended {
@@ -130,6 +131,7 @@
   border-color: #fff;
   border-style: solid;
   border-width: 1px;
+  position: relative;
 }
 
 .lots {
@@ -201,6 +203,7 @@
   font-size: 22px;
   text-transform: uppercase;
   text-decoration: underline 1px;
+  position: relative;
 }
 
 .card__text {
@@ -212,6 +215,7 @@
   flex-direction: column;
   justify-content: end;
   padding: 0 40px 48px 40px;
+  position: relative;
 }
 
 .lots__look-more-link {
